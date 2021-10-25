@@ -1,6 +1,5 @@
-package com.miguelSo.hiberus.repositories;
+package com.miguelSo.demoSpringBoot.repositories;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -10,7 +9,7 @@ import javax.persistence.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.miguelSo.hiberus.models.ProductModel;
+import com.miguelSo.demoSpringBoot.models.ProductModel;
 
 @Repository
 @Transactional(readOnly = true)

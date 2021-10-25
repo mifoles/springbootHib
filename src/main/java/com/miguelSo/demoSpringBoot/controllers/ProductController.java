@@ -1,4 +1,4 @@
-package com.miguelSo.hiberus.controllers;
+package com.miguelSo.demoSpringBoot.controllers;
 
 import java.util.ArrayList;
 import java.util.Optional;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.miguelSo.hiberus.models.ProductModel;
-import com.miguelSo.hiberus.services.ProductService;
+import com.miguelSo.demoSpringBoot.models.ProductModel;
+import com.miguelSo.demoSpringBoot.services.ProductService;
 
 @RestController
 @RequestMapping("/product")

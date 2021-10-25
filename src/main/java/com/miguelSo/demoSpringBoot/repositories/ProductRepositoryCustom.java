@@ -1,8 +1,8 @@
-package com.miguelSo.hiberus.repositories;
+package com.miguelSo.demoSpringBoot.repositories;
 
 import java.util.List;
 
-import com.miguelSo.hiberus.models.ProductModel;
+import com.miguelSo.demoSpringBoot.models.ProductModel;
 
 public interface ProductRepositoryCustom {
 
