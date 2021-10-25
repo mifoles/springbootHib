@@ -1,4 +1,4 @@
-package com.miguelSo.hiberus.models;
+package com.miguelSo.demoSpringBoot.models;
 
 import javax.persistence.*;
 

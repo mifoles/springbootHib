@@ -1,10 +1,10 @@
-package com.miguelSo.hiberus;
+package com.miguelSo.demoSpringBoot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HiberusApplicationTests {
+class DemoSpringBootApplicationTests {
 
 	@Test
 	void contextLoads() {

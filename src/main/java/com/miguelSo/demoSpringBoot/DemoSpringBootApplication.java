@@ -1,13 +1,13 @@
-package com.miguelSo.hiberus;
+package com.miguelSo.demoSpringBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HiberusApplication {
+public class DemoSpringBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HiberusApplication.class, args);
+		SpringApplication.run(DemoSpringBootApplication.class, args);
 	}
 
 }

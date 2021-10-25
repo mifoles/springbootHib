@@ -1,11 +1,11 @@
-package com.miguelSo.hiberus.repositories;
+package com.miguelSo.demoSpringBoot.repositories;
 
 import java.util.ArrayList;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.miguelSo.hiberus.models.ProductModel;
+import com.miguelSo.demoSpringBoot.models.ProductModel;
 
 @Repository
 public interface ProductRepository extends CrudRepository<ProductModel, Long>, ProductRepositoryCustom{

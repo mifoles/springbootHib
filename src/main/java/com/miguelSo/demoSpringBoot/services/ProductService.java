@@ -1,4 +1,4 @@
-package com.miguelSo.hiberus.services;
+package com.miguelSo.demoSpringBoot.services;
 
 import java.util.ArrayList;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.miguelSo.hiberus.models.ProductModel;
-import com.miguelSo.hiberus.repositories.ProductRepository;
-import com.miguelSo.hiberus.repositories.ProductRepositoryCustom;
-import com.miguelSo.hiberus.repositories.ProductRepositoryImpl;
+import com.miguelSo.demoSpringBoot.models.ProductModel;
+import com.miguelSo.demoSpringBoot.repositories.ProductRepository;
+import com.miguelSo.demoSpringBoot.repositories.ProductRepositoryCustom;
+import com.miguelSo.demoSpringBoot.repositories.ProductRepositoryImpl;
 
 @Service
 public class ProductService {
