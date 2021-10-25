@@ -24,7 +24,10 @@ public class ProductRepositoryImpl implements ProductRepositoryCustom {
 		Query qs = entityManager.createNativeQuery("SELECT p.* FROM springdb.product p WHERE p.name = ? or p.description = ?", ProductModel.class);
 		qs.setParameter(1, name);
 		qs.setParameter(2, description);
-		return qs.getResultList();
+		
+		@SuppressWarnings("unchecked")
+		List<ProductModel> productList = qs.getResultList();
+		return productList;
 	}
 
 	
