@@ -13,5 +13,5 @@ public interface ProductRepository extends CrudRepository<ProductModel, Long>, P
 	public abstract ArrayList<ProductModel> findByName(String name);
 	public abstract ArrayList<ProductModel> findByDescription(String description);
 	
-	
+	// Comentario branch prueba AA git local rep 1
 }

@@ -20,6 +20,8 @@ public class ProductRepositoryImpl implements ProductRepositoryCustom {
 	
 	@Override
 	public List<ProductModel> searcher(String name, String description) {
+		
+		// Prueba push GIT
 		System.out.println(entityManager);
 		Query qs = entityManager.createNativeQuery("SELECT p.* FROM springdb.product p WHERE p.name = ? or p.description = ?", ProductModel.class);
 		qs.setParameter(1, name);
